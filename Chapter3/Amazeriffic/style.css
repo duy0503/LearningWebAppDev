@@ -2,8 +2,8 @@ body {
   background: #f9e933;
 }
 
-header, main, footer {
-  min-width: 855px;
+header, main{
+  min-width: 500px;
 }
 
 header .container, main .container, footer .container {
@@ -18,7 +18,11 @@ header {
 
 header h1 {
   float: left;
-  width: 570px;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  font-size: 2.5em;
+  color: #b33;
+  float: left;
 }
 
 header nav {
@@ -28,7 +32,8 @@ header nav {
 
 main {
   background: white;
-  overflow: auto;
+  min-height: 20em;
+  padding: 2em;
 }
 
 main .left {
@@ -49,4 +54,23 @@ footer .left {
 footer .sitemap {
   float: right;
   width: 285px;
+}
+
+footer{
+  padding: 3em 0;
+  margin-left: 4em;
+  height:auto;
+}
+
+main h2 {
+  font-size:2em;
+}
+
+main .question{
+  font-size:1.5em;
+  padding:0.5em 0.5em 0 0;
+}
+
+main .answer{
+  padding:1em;
 }

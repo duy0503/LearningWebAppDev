@@ -1,0 +1,38 @@
+.footer.segment {
+    padding: 4em 0em;
+    margin-left: 4em;
+}
+
+header nav {
+  float: right;
+  width: 285px;
+}
+
+main {
+    padding: 6em;
+		background: #fff;
+}
+    
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  font-size: 3em;
+  color: #b33;
+  float: left;
+  margin-left: 5em;
+}
+
+body {
+  background: #f9e933;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+footer .contact {
+  float: left;
+	margin-left: 5em;
+}
+
+footer .sitemap {
+  float: right;
+	margin-left: 10em;
+}

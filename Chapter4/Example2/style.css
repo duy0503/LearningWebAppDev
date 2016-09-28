@@ -69,22 +69,25 @@ main {
   border-radius: 5px;
 }
 
-.comments .userA {
+.comments .userA:nth-child(odd) {
   color: #FF0000;
   background: lavender;
 }
 
-.comments .userB {
-  color: #0000FF;
-  background: gainsboro;
-}
-/*.comments p:nth-child(even) {
-    background: lavender;
+.comments .userA::nth-child(even) {
+  color: #FF0000;
+  background:gainsboro;
 }
 
-.comments p:nth-child(odd) {
-    background: gainsboro;
-}*/
+.comments .userB:nth-child(odd) {
+  color: #0000FF;
+  background:antiquewhite;
+}
+
+.comments .userB:nth-child(even) {
+  color: #0000FF;
+  background:ghostwhite;
+}
 
 footer {
     font-size: smaller;

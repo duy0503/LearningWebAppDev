@@ -2,8 +2,8 @@ body {
   background: #f9e933;
 }
 
-header, main{
-  min-width: 500px;
+header, main, footer {
+  min-width: 855px;
 }
 
 header .container, main .container, footer .container {
@@ -18,11 +18,7 @@ header {
 
 header h1 {
   float: left;
-  font-family: 'Ubuntu', sans-serif;
-  font-style: italic;
-  font-size: 2.5em;
-  color: #b33;
-  float: left;
+  width: 570px;
 }
 
 header nav {
@@ -32,8 +28,7 @@ header nav {
 
 main {
   background: white;
-  min-height: 20em;
-  padding: 2em;
+  overflow: auto;
 }
 
 main .left {
@@ -54,12 +49,6 @@ footer .left {
 footer .sitemap {
   float: right;
   width: 285px;
-}
-
-footer{
-  padding: 3em 0;
-  margin-left: 4em;
-  height:auto;
 }
 
 main h2 {
